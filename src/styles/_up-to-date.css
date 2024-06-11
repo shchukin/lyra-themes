@@ -5,9 +5,6 @@
     .up-to-date__heading {
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 39px;
         text-align: center;
     }
 
@@ -33,12 +30,7 @@
         padding-bottom: 80px;
     }
         .up-to-date__heading {
-            /*margin-top: 0;*/
-            /*margin-bottom: 0;*/
-            /*font-weight: normal;*/
-            /*font-size: 36px;*/
-            /*line-height: 39px;*/
-            /*text-align: center;*/
+
         }
 
         .up-to-date__description {

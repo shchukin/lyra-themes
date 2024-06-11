@@ -4,16 +4,13 @@
     .start__heading {
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 42px;
         text-align: center;
     }
 
     .start__body {
         margin-top: 40px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 1px;
     }
         .start__item {
@@ -118,16 +115,12 @@
         .start__heading {
             /*margin-top: 0;*/
             /*margin-bottom: 0;*/
-            /*font-weight: normal;*/
-            /*font-size: 36px;*/
-            /*line-height: 42px;*/
-            /*text-align: center;*/
         }
 
         .start__body {
             /*margin-top: 40px;*/
             /*display: grid;*/
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(1, minmax(0, 1fr));
             /*gap: 1px;*/
         }
             .start__item {
