@@ -6,10 +6,17 @@
     .footer__wrap {
         display: flex;
         align-items: flex-start;
-        gap: 198px;
     }
         .footer__column {
 
+        }
+
+        .footer__column--menu-1 {
+
+        }
+
+        .footer__column--menu-2 {
+            margin-left: 15%;
         }
 
         .footer__column--data {
