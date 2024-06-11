@@ -1,31 +1,54 @@
-let swiperInstance;
+let loveSwiperInstance;
+let resizeTimeout;
 
-function initializeSwiper() {
-    if (window.matchMedia('(min-width: 741px)').matches) {
-        swiperInstance = new Swiper('.love .swiper', {
-            spaceBetween: 40,
-            mousewheel: {
-                forceToAxis: true,
+function initSwiper() {
+    loveSwiperInstance = new Swiper('.love .swiper', {
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                spaceBetween: parseInt(getComputedStyle(document.documentElement).getPropertyValue('--container-padding')),
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+                pagination: false
             },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
+            // when window width is >= 741px
+            741: {
+                slidesPerView: 2,
+                slidesPerGroup: 2,
+                spaceBetween: 40,
+                grid: {
+                    rows: 2,
+                },
+                scrollbar: false,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
             },
-        });
-    }
+        },
+        autoHeight: true,
+        mousewheel: {
+            forceToAxis: true,
+        },
+    });
 }
 
-// Initialize on page load
-initializeSwiper();
+// Init Swiper on page load
+initSwiper();
 
-// Re-initialize on window resize
-window.addEventListener('resize', function() {
 
-    // Clear existing Swiper instance if it exists
-    if (swiperInstance) {
-        swiperInstance.destroy(true, true);
-        swiperInstance = null;
-    }
+// Init Swiper on window resize
+function handleResize() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        if (loveSwiperInstance) {
+            loveSwiperInstance.destroy(true, true);
+        }
+        initSwiper();
+    }, 1000); // 2000ms delay
+}
 
-    initializeSwiper();
-});
+window.addEventListener('resize', handleResize);
