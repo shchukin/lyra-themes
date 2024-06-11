@@ -38,6 +38,7 @@
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
+    slidesPerGroup: 3,
     grid: {
         rows: 2,
     },
