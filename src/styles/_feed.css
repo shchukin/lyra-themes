@@ -13,3 +13,24 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 40px;
     }
+
+
+
+@media (width < 740px) {
+
+    .feed {
+        padding-top: 80px;
+    }
+        .feed__heading {
+            /*margin-top: 0;*/
+            /*margin-bottom: 0;*/
+            /*text-align: center;*/
+        }
+
+        .feed__list {
+            /*margin-top: 42px;*/
+            /*display: grid;*/
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            /*gap: 40px;*/
+        }
+}
