@@ -1,0 +1,105 @@
+.start {
+    padding-top: 140px;
+}
+    .start__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .start__body {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+    }
+        .start__item {
+            position: relative;
+            display: block;
+            padding-top: 50px;
+            padding-bottom: 115px;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            background-color: #4F1FDE;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .start__item:nth-child(1) {
+            padding-top: 57px;
+            border-top-left-radius: 50px;
+        }
+
+        .start__item:nth-child(2) {
+            padding-top: 57px;
+        }
+
+        .start__item:nth-child(3) {
+            padding-top: 57px;
+            border-top-right-radius: 50px;
+        }
+
+        .start__item:nth-child(4) {
+            border-bottom-left-radius: 50px;
+        }
+
+        .start__item:nth-child(5) {
+
+        }
+
+        .start__item:nth-child(6) {
+            border-bottom-right-radius: 50px;
+        }
+            .start__preview {
+                height: 50px;
+                display: flex;
+                align-items: center;
+            }
+                .start__icon {
+                    fill: currentColor;
+                }
+
+            .start__sub-heading {
+                margin-top: 13px;
+                margin-bottom: 0;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            .start__description {
+                margin-top: 17px;
+            }
+
+            .start__footer {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                opacity: 0;
+                padding-right: 40px;
+                transition: opacity 600ms var(--ease-out-quint),
+                            bottom 600ms var(--ease-out-quint);
+            }
+
+            .start__item:hover .start__footer {
+                opacity: 1;
+                bottom: 40px;
+            }
+                .start__label {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+
+                .start__arrow {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    fill: currentColor;
+                }
