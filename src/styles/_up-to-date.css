@@ -1,0 +1,21 @@
+.up-to-date {
+
+}
+    .up-to-date__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .up-to-date__description {
+        margin: 23px auto 0;
+        max-width: 880px;
+        text-align: center;
+    }
+
+    .up-to-date__subscription {
+
+    }
