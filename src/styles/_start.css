@@ -28,6 +28,10 @@
             text-decoration: none;
         }
 
+        .start__item:hover {
+            background-color: #38169F;
+        }
+
         .start__item:nth-child(1) {
             padding-top: 57px;
             border-top-left-radius: 50px;
