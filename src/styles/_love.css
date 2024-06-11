@@ -1,0 +1,22 @@
+.love {
+    padding: 70px 40px 40px;
+    background-color: #FFFFFF;
+    border-radius: 55px;
+}
+    .love__heading {
+
+    }
+
+    .love__viewport {
+
+    }
+        .swiper-pagination {
+            position: static;
+        }
+
+
+            .love__slide {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 40px;
+            }
