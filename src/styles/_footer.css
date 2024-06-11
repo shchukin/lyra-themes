@@ -72,8 +72,8 @@
                 display: flex;
                 align-items: flex-start;
                 gap: 7px;
-                margin-left: -10px;
-                margin-right: -10px;
+                margin-left: -8px;
+                margin-right: -8px;
             }
                 .footer__media {
                     padding: 10px;

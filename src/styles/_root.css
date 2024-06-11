@@ -8,8 +8,8 @@
     /*--transition-show: 1200ms var(--ease-out-quint);*/
     /*--image-fallback: #F3F5F4;*/
     --container-padding: 40px;
-    /*--action-color: #0D7FC5;*/
-    /*--action-color-hover: #2FA5ED;*/
+    --action-color: #6633FF;
+    --action-color-hover: #7648ff;
     /*--input-border: #B3B3B3;*/
     /*--input-border-hover-and-focus: #7E7E7E;*/
     /*--placeholder-color: #999999;*/

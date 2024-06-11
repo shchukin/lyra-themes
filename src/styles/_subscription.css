@@ -1,0 +1,97 @@
+.subscription {
+    display: flex;
+    align-items: stretch;
+    padding: 2px;
+    background-color: #434342;
+    border-radius: 31px;
+}
+    .subscription__field {
+        flex-grow: 1;
+        vertical-align: top;
+        width: 100%;
+        height: 58px;
+        padding: 11px 24px;
+        background-color: #FFFFFF; /* reset grey background in some cases, such as <select> */
+        background-clip: padding-box; /* hack for iOS to make box-shadow works (same as border-radius in the past) */
+        border: 2px solid var(--input-border);
+        border-radius: 29px 0 0 29px;
+        outline: none;
+        font-family: inherit;
+        font-size: 16px; /* not less than 16px (otherwise mobile browsers will zoom in on focus) */
+        line-height: 24px;
+        color: var(--body-color);
+        opacity: 1; /* reset select:disabled default fade on iOS */
+        -webkit-tap-highlight-color: transparent;
+        transition: background-color var(--transition-hover),
+        border-color var(--transition-hover);
+    }
+
+    .subscription__submit {
+
+    }
+        .subscription__submit.button,
+        .subscription__submit .button {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            flex-shrink: 0;
+            width: 200px;
+        }
+
+
+
+@media (width < 740px) {
+
+    .subscription {
+        /*display: flex;*/
+        /*align-items: stretch;*/
+        /*padding: 2px;*/
+        /*background-color: #434342;*/
+        /*border-radius: 31px;*/
+    }
+        .subscription__field {
+            /*flex-grow: 1;*/
+            /*vertical-align: top;*/
+            /*width: 100%;*/
+            height: 50px;
+            padding: 11px 20px;
+            /*background-color: #FFFFFF; !* reset grey background in some cases, such as <select> *!*/
+            /*background-clip: padding-box; !* hack for iOS to make box-shadow works (same as border-radius in the past) *!*/
+            /*border: 2px solid var(--input-border);*/
+            border-radius: 25px 0 0 25px;
+            /*outline: none;*/
+            /*font-family: inherit;*/
+            /*font-size: 16px; !* not less than 16px (otherwise mobile browsers will zoom in on focus) *!*/
+            /*line-height: 24px;*/
+            /*color: var(--body-color);*/
+            /*opacity: 1; !* reset select:disabled default fade on iOS *!*/
+            /*-webkit-tap-highlight-color: transparent;*/
+            /*transition: background-color var(--transition-hover),*/
+            /*border-color var(--transition-hover);*/
+        }
+
+        .subscription__submit {
+
+        }
+            .subscription__submit.button,
+            .subscription__submit .button {
+                /*border-top-left-radius: 0;*/
+                /*border-bottom-left-radius: 0;*/
+                /*flex-shrink: 0;*/
+                width: auto;
+                padding: 13px 20px;
+                font-size: 16px;
+                border-radius: 0 25px 25px 0;
+            }
+}
+
+
+@media (width < 400px) {
+    .subscription__field {
+        padding: 11px 14px 11px 20px;
+    }
+
+    .subscription__submit.button,
+    .subscription__submit .button {
+        padding: 13px 14px;
+    }
+}
