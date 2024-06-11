@@ -33,6 +33,14 @@
     color: inherit;
 }
 
+.link--inverted {
+    text-decoration-color: transparent;
+}
+
+.link--inverted:hover {
+    text-decoration-color: currentColor;
+}
+
 
 .link--no-hover,
 .link--no-hover:hover,
