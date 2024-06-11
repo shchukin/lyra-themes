@@ -1,22 +1,23 @@
 .review {
+    height: 100%;
     padding: 40px 28px 28px;
     background-color: #F4F2DD;
     border-radius: 28px;
 }
 
-.review:nth-child(n+1) {
+.swiper-slide:nth-child(1n) .review {
     background-color: #F4F2DD;
 }
 
-.review:nth-child(n+2) {
-    background-color: #DCF5E8;
-}
-
-.review:nth-child(n+3) {
+.swiper-slide:nth-child(2n) .review {
     background-color: #DDE9F5;
 }
 
-.review:nth-child(n+4) {
+.swiper-slide:nth-child(3n) .review {
+    background-color: #DCF5E8;
+}
+
+.swiper-slide:nth-child(4n) .review {
     background-color: #F5DCED;
 }
 

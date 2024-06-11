@@ -1,83 +1,66 @@
-/*.love {*/
-/*    padding: 75px 40px 34px;*/
-/*    background-color: #FFFFFF;*/
-/*    border-radius: 55px;*/
-/*}*/
-/*    .love__heading {*/
-/*        margin-top: 0;*/
-/*        margin-bottom: 0;*/
-/*    }*/
-
-/*    .love__viewport {*/
-/*        margin-top: 65px;*/
-/*    }*/
-/*        .swiper-slide {*/
-/*            height: calc((100% - 40px) / 2) !important;*/
-/*        }*/
-
-/*        .swiper-pagination {*/
-/*            margin-top: 35px;*/
-/*            position: static;*/
-/*            display: flex;*/
-/*            align-items: center;*/
-/*            justify-content: center;*/
-/*        }*/
-/*            .swiper-pagination-bullet {*/
-/*                margin: 0 !important;*/
-/*                display: flex;*/
-/*                align-items: center;*/
-/*                justify-content: center;*/
-/*                width: 18px;*/
-/*                height: 36px;*/
-/*                border-radius: 0;*/
-/*                background-color: transparent;*/
-/*                opacity: 100%;*/
-/*            }*/
-/*                .swiper-pagination-bullet::after {*/
-/*                    content: "";*/
-/*                    width: 9px;*/
-/*                    height: 9px;*/
-/*                    border: 1px solid #9a9a9a;*/
-/*                    border-radius: 50%;*/
-/*                }*/
-
-/*                .swiper-pagination-bullet:hover::after {*/
-/*                    border-color: #6633ff;*/
-/*                }*/
-
-/*                .swiper-pagination-bullet-active::after {*/
-/*                    border-color: #6633ff;*/
-/*                    background-color: #6633ff;*/
-/*                }*/
-
-/*            .love__slide {*/
-/*                display: grid;*/
-/*                grid-template-columns: repeat(2, minmax(0, 1fr));*/
-/*                gap: 40px;*/
-/*            }*/
-
-* {
-    box-sizing: content-box !important;
+.love {
+    padding: 75px 40px 34px;
+    background-color: #FFFFFF;
+    border-radius: 55px;
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-    .swiper-wrapper {
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        grid-auto-flow: column;
+    .love__heading {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
+    .love__viewport {
+        margin-top: 65px;
+    }
+        .swiper-wrapper {
+            height: auto !important;
+            display: grid;
+            grid-template-rows: repeat(2, auto);
+            grid-auto-flow: column;
+            gap: 40px 0;
+        }
+            .swiper-slide {
+                margin-top: 0 !important;
+                height: 100% !important;
+            }
 
-/*.swiper-slide:nth-child(odd) {*/
-/*    order: 1;*/
-/*}*/
+        .swiper-pagination {
+            margin-top: 35px;
+            position: static;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            .swiper-pagination-bullet {
+                margin: 0 !important;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 18px;
+                height: 36px;
+                border-radius: 0;
+                background-color: transparent;
+                opacity: 100%;
+            }
+                .swiper-pagination-bullet::after {
+                    content: "";
+                    width: 9px;
+                    height: 9px;
+                    border: 1px solid #9a9a9a;
+                    border-radius: 50%;
+                }
 
-/*.swiper-slide:nth-child(even) {*/
-/*    order: 2;*/
-/*}*/
+                .swiper-pagination-bullet:hover::after {
+                    border-color: #6633ff;
+                }
 
+                .swiper-pagination-bullet-active::after {
+                    border-color: #6633ff;
+                    background-color: #6633ff;
+                }
+
+            .love__slide {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 40px;
+            }
 
