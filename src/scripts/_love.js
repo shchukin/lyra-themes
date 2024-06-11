@@ -4,6 +4,7 @@ new Swiper('.love .swiper', {
         320: {
             slidesPerView: 1,
             slidesPerGroup: 1,
+            spaceBetween: getComputedStyle(document.documentElement).getPropertyValue('--container-padding'),
             scrollbar: {
                 el: '.swiper-scrollbar',
             },
@@ -13,6 +14,7 @@ new Swiper('.love .swiper', {
         741: {
             slidesPerView: 2,
             slidesPerGroup: 2,
+            spaceBetween: 40,
             grid: {
                 rows: 2,
             },
@@ -24,7 +26,6 @@ new Swiper('.love .swiper', {
         },
     },
     autoHeight: true,
-    spaceBetween: 40,
     mousewheel: {
         forceToAxis: true,
     },
