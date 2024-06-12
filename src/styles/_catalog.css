@@ -1,5 +1,15 @@
 .catalog {
-    margin-top: 150px;
+    margin-top: 140px;
     display: grid;
     gap: 150px;
+}
+
+
+@media (width < 740px) {
+
+    .catalog {
+        margin-top: 80px;
+        /*display: grid;*/
+        gap: 80px;
+    }
 }
