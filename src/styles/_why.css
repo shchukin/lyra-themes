@@ -1,0 +1,39 @@
+.why {
+    padding: 73px 100px 122px;
+    background-image: linear-gradient(#3B14AD, #250094);
+    color: #FFFFFF;
+    border-radius: 56px;
+}
+    .why__heading {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .why__list {
+        margin-top: 60px;
+        columns: 3;
+    }
+        .why__item {
+            position: relative;
+            padding-left: 38px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+            .why__preview {
+                position: absolute;
+                left: -10px;
+                top: 50%;
+                margin-top: -20px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .why__icon {
+                    vertical-align: middle;
+                    fill: currentColor;
+                }
