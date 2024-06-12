@@ -1,0 +1,152 @@
+.header {
+    height: var(--header-height);
+}
+    .header__detachable-part {
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: var(--header-height);
+        background-color: #FFFFFF;
+    }
+        .header__wrap {
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+            .header__logo {
+                display: block;
+                width: 170px;
+                height: 46px;
+                background-image: url("../images/logo.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+                text-indent: 200%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            @media (min-resolution: 1.5dppx) {
+                .header__logo {
+                    background-image: url("../images/logo@2x.png");
+                }
+            }
+
+            @media (min-resolution: 2.5dppx) {
+                .header__logo {
+                    background-image: url("../images/logo@3x.png");
+                }
+            }
+
+            .header__toggle-nav {
+                display: none;
+            }
+
+            .header__nav {
+                display: flex;
+                align-items: center;
+                margin-right: -17px;
+            }
+                .header__link {
+                    display: block;
+                    padding: 8px 17px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-decoration: none;
+                    color: inherit;
+                    border-radius: 20px;
+                }
+
+                .header__link:hover {
+                    background-color: #EBEBEB;
+                }
+
+
+
+@media (width < 740px) {
+
+    .header {
+        /*height: var(--header-height);*/
+    }
+        .header__detachable-part {
+            /*position: fixed;*/
+            /*z-index: 100;*/
+            /*left: 0;*/
+            /*top: 0;*/
+            /*right: 0;*/
+            /*height: var(--header-height);*/
+            /*background-color: #FFFFFF;*/
+        }
+            .header__wrap {
+                /*height: var(--header-height);*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: space-between;*/
+            }
+                .header__logo {
+                    /*display: block;*/
+                    /*width: 170px;*/
+                    /*height: 46px;*/
+                    /*background-image: url("../images/logo.png");*/
+                    /*background-size: contain;*/
+                    /*background-repeat: no-repeat;*/
+                    /*background-position: center center;*/
+                    /*text-indent: 200%;*/
+                    /*white-space: nowrap;*/
+                    /*overflow: hidden;*/
+                }
+
+                .header__toggle-nav {
+                    margin-right: calc(-1 * var(--container-padding) + 3px);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: var(--header-height);
+                    height: var(--header-height);
+                    background-color: transparent;
+                    padding: 0;
+                    border: none;
+                    color: inherit;
+                    cursor: pointer;
+                }
+                    .header__burger {
+                        width: 24px;
+                        height: 24px;
+                        fill: currentColor;
+                    }
+
+                    .header__cross {
+                        display: none;
+                    }
+
+                .header__nav {
+                    position: absolute;
+                    right: var(--container-padding);
+                    top: 100%;
+                    margin-top: 16px;
+                    display: block;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    background-color: #FFFFFF;
+                    box-shadow: 0 0 0 1px #EBEBEB;
+                    border-radius: 20px;
+                    /*align-items: center;*/
+                    margin-right: 0;
+                }
+                    .header__link {
+                        /*display: block;*/
+                        padding: 8px 24px;
+                        /*font-size: 16px;*/
+                        /*line-height: 24px;*/
+                        /*text-decoration: none;*/
+                        /*color: inherit;*/
+                        border-radius: 0;
+                    }
+
+                    .header__link:hover {
+                        background-color: transparent;
+                    }
+}
