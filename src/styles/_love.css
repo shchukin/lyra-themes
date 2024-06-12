@@ -1,5 +1,5 @@
 .love {
-
+    overflow: hidden; /* cut slider (slide has overflow: visible) */
 }
     .love__inner {
         padding: 75px 40px 34px;
@@ -24,6 +24,14 @@
         padding-top: 40px;
         padding-bottom: 80px;
     }
+        .love.container {
+            /* for cut slider, let it fly over left and right padding: */
+            border-left: none;
+            border-right: none;
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+        }
+
         .love__inner {
             padding: 0;
             /*background-color: #FFFFFF;*/

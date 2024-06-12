@@ -14,7 +14,7 @@
 @media (740px <= width) {
 
     .swiper--love {
-
+        overflow: visible;
     }
         .swiper--love .swiper-wrapper {
             height: auto !important;
@@ -83,7 +83,7 @@
 @media (width < 740px) {
 
     .swiper--love {
-
+        overflow: visible;
     }
         .swiper--love .swiper-wrapper {
 
