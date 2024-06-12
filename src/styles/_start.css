@@ -112,6 +112,12 @@
     .start {
         padding-top: 80px;
     }
+
+    .start.container {
+        border-left: none;
+        border-right: none;
+    }
+
         .start__heading {
             /*margin-top: 0;*/
             /*margin-bottom: 0;*/
@@ -133,22 +139,7 @@
                 /*background-color: #4F1FDE;*/
                 /*color: #FFFFFF;*/
                 /*text-decoration: none;*/
-            }
-
-            .start__item:nth-child(n) {
-                border-radius: 0;
-            }
-
-            .start__item:first-child {
-                border-top-left-radius: 50px;
-                border-top-right-radius: 50px;
-            }
-
-
-            .start__item:last-child {
-                border-bottom: 20px solid transparent;
-                border-bottom-left-radius: 50px;
-                border-bottom-right-radius: 50px;
+                border-radius: 0 !important;
             }
                 .start__preview {
                     /*height: 50px;*/
