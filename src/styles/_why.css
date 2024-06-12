@@ -73,7 +73,7 @@
 @media (width < 740px) {
 
     .why {
-
+        margin-top: 80px;
     }
 
     .why.container {
