@@ -1,6 +1,5 @@
 .up-to-date {
-    padding-top: 146px;
-    padding-bottom: 132px;
+    margin-top: 146px;
 }
     .up-to-date__heading {
         margin-top: 0;
@@ -26,8 +25,7 @@
 @media (width < 740px) {
 
     .up-to-date {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        margin-top: 80px;
     }
         .up-to-date__heading {
 

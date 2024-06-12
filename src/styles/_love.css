@@ -1,4 +1,5 @@
 .love {
+    margin-top: 130px;
     overflow: hidden; /* cut slider (slide has overflow: visible) */
 }
     .love__inner {
@@ -20,6 +21,7 @@
 @media (width < 740px) {
 
     .love {
+        margin-top: 80px;
         background-color: #FFFFFF;
         padding-top: 40px;
         padding-bottom: 80px;

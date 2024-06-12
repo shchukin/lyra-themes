@@ -1,4 +1,5 @@
 .footer {
+    margin-top: 132px;
     padding-top: 77px;
     padding-bottom: 82px;
     background-color: #FFFFFF;
@@ -96,6 +97,7 @@
 @media (width < 740px) {
 
     .footer {
+        margin-top: 80px;
         padding-top: 60px;
         padding-bottom: 64px;
         /*background-color: #FFFFFF;*/

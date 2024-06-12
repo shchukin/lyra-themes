@@ -1,5 +1,5 @@
 .feed {
-    padding-top: 144px;
+    margin-top: 144px;
 }
     .feed__heading {
         margin-top: 0;
@@ -19,7 +19,7 @@
 @media (width < 740px) {
 
     .feed {
-        padding-top: 80px;
+        margin-top: 80px;
     }
         .feed__heading {
             /*margin-top: 0;*/

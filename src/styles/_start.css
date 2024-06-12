@@ -1,5 +1,5 @@
 .start {
-    padding-top: 140px;
+     margin-top: 140px;
 }
     .start__heading {
         margin-top: 0;
@@ -110,7 +110,7 @@
 @media (width < 740px) {
 
     .start {
-        padding-top: 80px;
+        margin-top: 80px;
     }
 
     .start.container {
