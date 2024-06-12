@@ -1,9 +1,12 @@
 .product {
     display: grid;
     grid-template-columns: 51.5625% 48.4375%;
+    grid-template-rows: auto auto auto auto; /* Define rows */
 }
     .product__preview {
-
+        grid-column: 1;
+        grid-row: 1 / 5; /* Make it span from the first to the last row */
+        align-self: center;
     }
         .product__image {
             vertical-align: top;
@@ -12,12 +15,8 @@
             background-color: #FFFFFF;
         }
 
-
-    .product__body {
-        align-self: center;
-        padding-left: 10.5177%;
-    }
         .product__heading {
+            grid-column: 2;
             margin-top: 0;
             margin-bottom: 0;
             font-weight: bold;
@@ -26,16 +25,19 @@
         }
 
         .product__headline {
+            grid-column: 2;
             margin-top: 22px;
             font-size: 24px;
             line-height: 29px;
         }
 
         .product__description {
+            grid-column: 2;
             margin-top: 26px;
         }
 
         .product__actions {
+            grid-column: 2;
             margin-top: 40px;
             display: flex;
             align-items: center;
