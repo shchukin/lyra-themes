@@ -16,7 +16,7 @@
 @import url("_button.css");
 /*@import url("_input.css");*/
 /*@import url("_choice.css");*/
-/*@import url("_wysiwyg.css");*/
+@import url("_wysiwyg.css");
 /*@import url("_label.css");*/
 /*@import url("_helper.css");*/
 
@@ -32,4 +32,6 @@
 @import url("_swiper.css");
 @import url("_featured.css");
 @import url("_why.css");
+@import url("_product.css");
+@import url("_catalog.css");
 

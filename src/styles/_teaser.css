@@ -9,6 +9,7 @@
             height: auto;
             vertical-align: top;
             border-radius: 30px;
+            background-color: #FFFFFF;
         }
 
         .teaser__preview:hover .teaser__image {
