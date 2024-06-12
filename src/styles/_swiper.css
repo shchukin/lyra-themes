@@ -53,17 +53,17 @@
                 content: "";
                 width: 9px;
                 height: 9px;
-                border: 1px solid #9a9a9a;
+                border: 1px solid #9A9A9A;
                 border-radius: 50%;
             }
 
             .swiper--love .swiper-pagination-bullet:hover::after {
-                border-color: #6633ff;
+                border-color: #6633FF;
             }
 
             .swiper--love .swiper-pagination-bullet-active::after {
-                border-color: #6633ff;
-                background-color: #6633ff;
+                border-color: #6633FF;
+                background-color: #6633FF;
             }
 
 
@@ -72,7 +72,6 @@
     .swiper--love .swiper-scrollbar {
         display: none;
     }
-
 }
 
 
@@ -109,7 +108,6 @@
         .swiper--love .swiper-scrollbar-drag {
             background-color: var(--action-color);
         }
-
 }
 
 
