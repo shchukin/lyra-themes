@@ -12,7 +12,8 @@ function initSwiper() {
                 scrollbar: {
                     el: '.swiper-scrollbar',
                 },
-                pagination: false
+                pagination: false,
+                speed: 400,
             },
             // when window width is >= 741px
             741: {
@@ -27,6 +28,7 @@ function initSwiper() {
                     el: '.swiper-pagination',
                     clickable: true,
                 },
+                speed: 600,
             },
         },
         autoHeight: true,
