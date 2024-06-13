@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+
     const $burger = document.querySelector('.header__toggle-nav');
     const $nav = document.querySelector('.header__nav');
 
@@ -18,4 +19,5 @@ document.addEventListener('DOMContentLoaded', function () {
             $nav.classList.remove('header__nav--expanded');
         }
     });
+
 });
