@@ -1,0 +1,23 @@
+.operations {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+    .operations .button {
+        min-width: 204px;
+    }
+
+@media (width < 740px) {
+
+    .operations .button {
+        min-width: 0;
+    }
+
+    @media (width < 350px) {
+        .operations {
+            margin-left: -5px;
+            margin-right: -5px;
+            gap: 8px;
+        }
+    }
+}

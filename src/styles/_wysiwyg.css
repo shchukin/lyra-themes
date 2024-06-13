@@ -14,6 +14,28 @@
     margin-bottom: var(--body-line-height);
 }
 
+
+
+@media (740px <= width) {
+
+    .wysiwyg--sparse {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .wysiwyg--sparse p,
+    .wysiwyg--sparse ul,
+    .wysiwyg--sparse ol,
+    .wysiwyg--sparse hr,
+    .wysiwyg--sparse figure,
+    .wysiwyg--sparse blockquote {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
 .wysiwyg p:first-child,
 .wysiwyg ul:first-child,
 .wysiwyg ol:first-child,

@@ -1,11 +1,11 @@
 .love {
-    margin-top: 130px;
+    margin-top: 140px;
     overflow: hidden; /* cut slider (slide has overflow: visible) */
 }
     .love__inner {
         padding: 75px 40px 34px;
         background-color: #FFFFFF;
-        border-radius: 55px;
+        border-radius: 60px;
     }
         .love__heading {
             margin-top: 0;

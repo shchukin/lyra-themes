@@ -30,6 +30,7 @@
                 font-weight: normal;
                 font-size: 24px;
                 line-height: 24px;
+                letter-spacing: -0.025em;
             }
 
             .footer__heading:first-child {

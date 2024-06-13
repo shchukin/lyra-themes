@@ -18,7 +18,7 @@
                 width: 100%;
                 height: auto;
                 background-color: #FFFFFF;
-                border-radius: 52px;
+                border-radius: 60px;
             }
 
         .product__heading {
@@ -49,11 +49,7 @@
             grid-column: 2;
             grid-row: 5;
             margin-top: 40px;
-            display: flex;
-            align-items: center;
-            gap: 20px;
         }
-
 
 
 @media (width < 740px) {
@@ -102,16 +98,5 @@
 
             .product__actions {
                 margin-top: 30px;
-                /*display: flex;*/
-                /*align-items: center;*/
-                gap: 20px;
-            }
-
-            @media (width < 350px) {
-                .product__actions {
-                    margin-left: -5px;
-                    margin-right: -5px;
-                    gap: 8px;
-                }
             }
 }
