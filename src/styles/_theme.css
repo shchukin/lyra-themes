@@ -122,13 +122,14 @@
             }
                 .theme__partial-screenshot {
                     margin-top: 24px;
+                    max-width: var(--max-mobile-image-width);
                 }
 
                 .theme__partial-screenshot:first-child {
 
                 }
                     .theme__partial-image {
-                        max-width: 400px;
+
                     }
 
             .theme__demo-note {

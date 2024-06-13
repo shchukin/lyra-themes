@@ -9,6 +9,7 @@
     --action-color: #6633FF;
     --action-color-hover: #7648FF;
     --header-height: 72px;
+    --max-mobile-image-width: 400px;
 }
 
 @media (350px <= width < 600px) {
