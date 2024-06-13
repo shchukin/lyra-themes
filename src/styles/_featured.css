@@ -28,28 +28,18 @@
         margin-top: 60px;
     }
         .featured__heading {
-            /*text-align: center;*/
+
         }
 
         .featured__list {
             margin-top: 50px;
             display: flex;
             flex-wrap: wrap;
-            /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
             gap: 40px 0;
-            /*align-items: center;*/
-            /*justify-content: space-between;*/
-
-            /*grid-template-columns: repeat(3, 1fr);*/
-            /*gap: 10px; !* Optional: space between grid items *!*/
-            /*height: 100vh; !* Full height of the viewport *!*/
-            /*grid-auto-rows: minmax(100px, auto);*/
         }
             .featured__item {
                 width: 50%;
                 flex-grow: 1;
-                /*text-align: center;*/
-                /*grid-column: 1 / -1; !* Make the last item span all columns *!*/
             }
                 .featured__image {
                     max-width: 100%;

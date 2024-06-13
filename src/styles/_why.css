@@ -81,22 +81,13 @@
         border-right: none;
     }
         .why__inner {
-            /*padding-top: 70px;*/
-            /*padding-bottom: 120px;*/
             padding: 40px var(--container-padding) 60px;
-            /*background-image: url("../images/why-rays@1x.png"), linear-gradient(#3B14AD, #250094);*/
             background-size: cover, 100% 100%;
-            /*background-repeat: no-repeat, repeat;*/
             background-position: center center, center center;
-            /*color: #FFFFFF;*/
             border-radius: 0;
         }
             .why__heading {
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
-                /*padding-left: 40px;*/
-                /*padding-right: 40px;*/
-                /*text-align: center;*/
+
             }
 
         .why__heading.title,
@@ -114,33 +105,15 @@
                 margin-left: auto;
                 margin-right: auto;
                 gap: 16px;
-                /*grid-template-columns: 430fr 400fr 200fr;*/
-                /*grid-template-rows: repeat(3, auto);*/
-                /*grid-auto-flow: column;*/
-                /*justify-content: space-between;*/
-                /*gap: 36px 0;*/
             }
                 .why__item {
-                    /*position: relative;*/
-                    /*padding-left: 38px;*/
-                    /*display: flex;*/
-                    /*align-items: center;*/
                     font-size: 17px;
                     line-height: 22px;
                 }
                     .why__preview {
-                        /*position: absolute;*/
-                        /*left: -10px;*/
-                        /*top: 50%;*/
-                        /*margin-top: -20px;*/
-                        /*width: 40px;*/
-                        /*height: 40px;*/
-                        /*display: flex;*/
-                        /*align-items: center;*/
-                        /*justify-content: center;*/
+
                     }
                         .why__icon {
-                            /*vertical-align: middle;*/
-                            /*fill: currentColor;*/
+
                         }
 }

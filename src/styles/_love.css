@@ -36,12 +36,8 @@
 
         .love__inner {
             padding: 0;
-            /*background-color: #FFFFFF;*/
-            /*border-radius: 55px;*/
         }
             .love__heading {
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
             }
                 .love__heading.title,
                 .love__heading .title {

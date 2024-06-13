@@ -62,55 +62,40 @@
 
     }
         .teaser__preview {
-            /*display: block;*/
             max-width: 400px;
         }
             .teaser__image {
-                /*width: 100%;*/
-                /*height: auto;*/
-                /*vertical-align: top;*/
                 border-radius: 24px;
             }
 
             .teaser__preview:hover .teaser__image {
-                /*filter: brightness(1.025) contrast(1.05);*/
+
             }
 
         .teaser__category {
-            /*margin-top: 26px;*/
-            /*font-size: 14px;*/
-            /*line-height: 18px;*/
-            /*color: #ff1190;*/
+
         }
 
         .teaser__heading {
             margin-top: 8px;
-            /*margin-bottom: 0;*/
             min-height: 0;
-            /*font-weight: normal;*/
             font-size: 21px;
             line-height: 24px;
         }
             .teaser__link {
-                /*text-decoration: none;*/
-                /*color: inherit;*/
+
             }
 
             .teaser__link:hover {
-                /*color: var(--action-color);*/
+
             }
 
         .teaser__author {
-            /*margin-top: 18px;*/
-            /*font-size: 14px;*/
-            /*line-height: 14px;*/
-            /*color: #6633ff;*/
+
         }
 
         .teaser__time {
-            /*font-size: 14px;*/
-            /*line-height: 14px;*/
-            /*color: #6a6a6a;*/
+
         }
 }
 

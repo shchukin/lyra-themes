@@ -72,7 +72,7 @@
 @media (width < 740px) {
 
     .header {
-        /*height: var(--header-height);*/
+
     }
         .header__detachable-part {
             /*position: fixed;*/

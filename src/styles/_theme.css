@@ -77,12 +77,8 @@
     .theme {
         margin-top: 80px;
         display: block;
-        /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
-        /*align-items: start;*/
-        /*gap: 106px 40px;*/
     }
         .theme__full-screenshot {
-            /*display: block;*/
             margin-top: 24px;
         }
 
@@ -90,21 +86,14 @@
             margin-top: 0;
         }
             .theme__full-image {
-                /*vertical-align: top;*/
-                /*width: 100%;*/
-                /*height: auto;*/
-                /*background-color: #FFFFFF;*/
                 border-radius: 24px;
             }
 
         .theme__content {
-            /*padding-top: 2px;*/
             margin-top: 40px;
         }
             .theme__heading {
-                /*margin-top: 0;*/
-                /*margin-bottom: 0;*/
-                /*font-weight: normal;*/
+
             }
                 .theme__heading.title,
                 .theme__heading .title {
@@ -118,15 +107,10 @@
 
             .theme__actions {
                 margin-top: 24px;
-                /*display: flex;*/
-                /*align-items: flex-start;*/
-                /*gap: 20px;*/
             }
 
             .theme__price-note {
                 margin-top: 24px;
-                /*font-size: 11px;*/
-                /*line-height: 14px;*/
             }
 
         .theme__more-screenshots {
@@ -135,29 +119,19 @@
             .theme__bg-wrap {
                 padding: 0;
                 background-color: transparent;
-                /*border-radius: 60px;*/
             }
                 .theme__partial-screenshot {
-                    /*display: block;*/
                     margin-top: 24px;
                 }
 
                 .theme__partial-screenshot:first-child {
-                    /*margin-top: 0;*/
+
                 }
                     .theme__partial-image {
-                        /*vertical-align: top;*/
-                        /*width: 100%;*/
                         max-width: 400px;
-                        /*height: auto;*/
-                        /*background-color: #FFFFFF;*/
-                        /*border-radius: 30px;*/
                     }
 
             .theme__demo-note {
-                /*margin-top: 20px;*/
-                /*font-size: 11px;*/
-                /*line-height: 14px;*/
                 text-align: left;
             }
 }
