@@ -252,9 +252,22 @@
             <h2 class="featured__heading title">
                 Featured On
             </h2>
+            <!--
+                Here we have a series of following classes:
+                .featured__image--smaller
+                .featured__image--larger
+                .featured__image--largest
+                to manipulate image sizes. Think about it like a final adjustment.
+
+                If there will be new logos, please use these classes based on
+                what logos looks smaller or larger.
+
+                These changes only takes place on smartphones.
+                On desktop just use width="" and height="" attributes.
+            -->
             <div class="featured__list">
                 <a class="featured__item" href="https://www.wpbeginner.com">
-                    <img srcset="../content/features/featured-a@2x.png 2x"
+                    <img class="featured__image featured__image--larger" srcset="../content/features/featured-a@2x.png 2x"
                          src="../content/features/featured-a@1x.png"
                          width="221"
                          height="42"
@@ -262,7 +275,7 @@
                     >
                 </a>
                 <a class="featured__item" href="https://colorlib.com">
-                    <img srcset="../content/features/featured-b@2x.png 2x"
+                    <img class="featured__image featured__image--smaller" srcset="../content/features/featured-b@2x.png 2x"
                          src="../content/features/featured-b@1x.png"
                          width="169"
                          height="41"
@@ -270,21 +283,21 @@
                     >
                 </a>
                 <a class="featured__item" href="https://athemes.com">
-                    <img src="../content/features/featured-c.svg"
+                    <img class="featured__image featured__image--larger" src="../content/features/featured-c.svg"
                          width="188"
                          height="44"
                          alt=""
                     >
                 </a>
                 <a class="featured__item" href="https://www.hubspot.com">
-                    <img src="../content/features/featured-d.svg"
+                    <img class="featured__image featured__image--smaller" src="../content/features/featured-d.svg"
                          width="168"
                          height="49"
                          alt=""
                     >
                 </a>
                 <a class="featured__item" href="https://www.mojomarketplace.com">
-                    <img src="../content/features/featured-e.svg"
+                    <img class="featured__image featured__image--largest" src="../content/features/featured-e.svg"
                          width="218"
                          height="30"
                          alt=""
