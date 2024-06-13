@@ -195,3 +195,32 @@
                         /*fill: currentColor;*/
                     }
 }
+
+
+
+
+.start--simplified {
+
+}
+    .start--simplified .start__item {
+        padding-bottom: 70px;
+        background-color: #FFFFFF;
+        color: inherit;
+    }
+        .start--simplified .start__icon {
+            fill: var(--action-color);
+        }
+
+        .start--simplified .start__footer {
+            display: none;
+        }
+
+
+
+@media (width < 740px) {
+
+    .start--simplified .start__item {
+        padding-bottom: 60px;
+
+    }
+}
