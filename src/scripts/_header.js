@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     const $burger = document.querySelector('.header__toggle-nav');
-    const $nav = document.querySelector('.header__nav');
+    const $nav = document.querySelector('.header__menu');
 
     $burger.addEventListener('click', function (event) {
         event.stopPropagation();
