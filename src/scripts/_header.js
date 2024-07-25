@@ -1,22 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     const $burger = document.querySelector('.header__toggle-nav');
-    const $nav = document.querySelector('.header__menu');
+    const menu = document.querySelector('.header__menu');
 
     $burger.addEventListener('click', function (event) {
         event.stopPropagation();
-        $nav.classList.toggle('header__nav--expanded');
+        menu.classList.toggle('header__menu--expanded');
     });
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
-            $nav.classList.remove('header__nav--expanded');
+            menu.classList.remove('header__menu--expanded');
         }
     });
 
     document.addEventListener('click', function (event) {
-        if (!$nav.contains(event.target) && !$burger.contains(event.target)) {
-            $nav.classList.remove('header__nav--expanded');
+        if (!menu.contains(event.target) && !$burger.contains(event.target)) {
+            menu.classList.remove('header__menu--expanded');
         }
     });
 

@@ -141,11 +141,11 @@
                             display: none;
                         }
 
-                        .header__nav--expanded .header__burger {
+                        .header__menu--expanded .header__burger {
                             display: none;
                         }
 
-                        .header__nav--expanded .header__cross {
+                        .header__menu--expanded .header__cross {
                             display: block;
                         }
 
@@ -164,7 +164,7 @@
                         display: none;
                     }
 
-                    .header__nav--expanded .header__list {
+                    .header__menu--expanded .header__list {
                         display: block;
                     }
 
