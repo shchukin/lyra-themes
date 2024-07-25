@@ -37,10 +37,10 @@
                 margin-top: 0;
             }
 
-            .footer__menu {
+            .footer__nav {
                 margin-top: 29px;
             }
-                .footer__nav {
+                .footer__list {
                     margin-bottom: 0;
                     padding-left: 0;
                     list-style: none;
@@ -140,7 +140,7 @@
 
                 }
 
-                .footer__nav {
+                .footer__list {
                     margin-top: 24px;
                 }
                     .footer__link {
