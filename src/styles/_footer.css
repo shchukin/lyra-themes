@@ -40,27 +40,35 @@
             .footer__menu {
                 margin-top: 29px;
             }
-                .footer__link {
-                    margin-top: 8px;
-                    display: block;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                    width: fit-content;
-                    font-size: 15px;
-                    line-height: 20px;
-                    color: inherit;
-                    white-space: nowrap;
-                    text-decoration: 1px underline transparent;
-                    text-underline-offset: 2px;
+                .footer__nav {
+                    margin-bottom: 0;
+                    padding-left: 0;
+                    list-style: none;
                 }
+                    .footer__item {
 
-                .footer__link:hover {
-                    text-decoration-color: currentColor;
-                }
+                    }
+                        .footer__link {
+                            margin-top: 8px;
+                            display: block;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            width: fit-content;
+                            font-size: 15px;
+                            line-height: 20px;
+                            color: inherit;
+                            white-space: nowrap;
+                            text-decoration: 1px underline transparent;
+                            text-underline-offset: 2px;
+                        }
 
-                .footer__link:first-child {
-                    margin-top: 0;
-                }
+                        .footer__link:hover {
+                            text-decoration-color: currentColor;
+                        }
+
+                        .footer__link:first-child {
+                            margin-top: 0;
+                        }
 
             .footer__description {
                 margin-top: 37px;
@@ -132,7 +140,7 @@
 
                 }
 
-                .footer__menu {
+                .footer__nav {
                     margin-top: 24px;
                 }
                     .footer__link {
